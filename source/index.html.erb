@@ -8,9 +8,10 @@ title: Le Wagon - Middleman
 
 <div class="container">
   <div class="row">
-    <% 12.times do |x|%>
-      <% @test = x + 1 %>
-      <div class="col-xs-3">
+    <% data.flats.each do |owner, flat|%>
+    <% @owner = owner %>
+    <% @flat = flat %>
+      <div class="col-xs-4">
         <%= partial "layouts/card" %>
       </div>
     <% end %>

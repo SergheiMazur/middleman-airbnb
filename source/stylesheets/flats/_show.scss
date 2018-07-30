@@ -1,0 +1,19 @@
+.header-flat-details {
+  display: flex;
+  padding: 10px;
+}
+
+.header-flat-name {
+  margin-right: 10px;
+  h1 {
+    font-size: 20px;
+  }
+
+  p{
+    color: gray;
+  }
+}
+
+.header-flat-owner {
+  padding-right: 30px;
+}
